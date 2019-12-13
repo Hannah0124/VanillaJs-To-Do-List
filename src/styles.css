@@ -1,0 +1,85 @@
+body {
+  font-family: "Indie Flower", cursive;
+  padding: 0;
+  margin: 0;
+  background: url("https://i.ibb.co/xD2LR1q/krisna-iv-n9u9-ZEo-H2y-M-unsplash.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  margin-left: 8px;
+  padding: 0;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+input {
+  width: 30%;
+  margin-top: 100px;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+  color: black;
+  font-style: bold;
+  font-family: "Indie Flower", cursive;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+}
+
+.container {
+  align-self: start;
+}
+
+.group {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+li {
+  font-size: 30px;
+}
+
+ul li:before {
+  content: "✓";
+}
+
+.fa-trash {
+  color: darkred;
+  font-size: 20px;
+  /* filter:drop-shadow(2px 2px 0.5px darkgray); */
+}
+
+.fa-check-circle {
+  color: #00b894;
+  font-size: 20px;
+}
+
+.fa-chevron-circle-left {
+  color: #487eb0;
+  font-size: 20px;
+}

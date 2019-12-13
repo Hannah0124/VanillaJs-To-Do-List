@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <meta charset="UTF-8" />
+    <link href="src.styles.css" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <form class="js-form">
+      <input type="text" placeholder="Add Tasks" />
+    </form>
+    <div class="container">
+      <div class="group">
+        <h1>Pending</h1>
+        <ul class="js-pending"></ul>
+      </div>
+
+      <div class="group">
+        <h1>Finished</h1>
+        <ul class="js-finished"></ul>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
